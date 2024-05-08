@@ -1,0 +1,62 @@
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text 
+{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+:host 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #8BC6EC;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  }
+
+  .content
+  {
+    height: calc(100% - 20px);
+    width: 50%;
+    display: flex;
+    position: relative;
+  }
+
+ .left
+ {
+    height: 100%;
+    width: 50%;
+
+ }
+
+ .right
+ {
+    height: 100%;
+    width: 50%;
+ 
+ }
+
+ .explore-button 
+ {
+    background-color: #9439e8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+  }
+  
+  .explore-button:hover
+  {
+    background-color: #E0C3FC;
+    color: black;
+  }
+  

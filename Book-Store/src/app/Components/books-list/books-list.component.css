@@ -1,0 +1,44 @@
+body 
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+:host 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #8BC6EC;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  }
+
+.explore-button 
+{
+    background-color: #9439e8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+
+  }
+  
+.explore-button:hover 
+{
+    background-color: #E0C3FC;
+    color: black;
+  }
