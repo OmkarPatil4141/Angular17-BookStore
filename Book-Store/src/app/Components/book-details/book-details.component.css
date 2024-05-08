@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:host 
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #8BC6EC;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+  body 
+  {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    padding-bottom: 9rem;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    /* box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14); */
+} 
+
+.card img
+{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info p
+{
+   
+    margin: 30px;
+}
+
+.card:hover
+{
+    box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+
+#info h2
+{
+  border-bottom: 2px solid #372d2d;
+}
+
+.explore-button 
+{
+  background-color: #9439e8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10rem;
+}
+
+.explore-button:hover 
+{
+  background-color: #E0C3FC;
+  color: black;
+}
+  
+  
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
+
+  

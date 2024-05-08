@@ -52,6 +52,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 50px;
+    /* margin-top: 400px; */
   }
   
   .explore-button:hover
