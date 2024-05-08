@@ -12,6 +12,12 @@ body
     margin-top: 50px;
 }
 
+a {
+  color: white; 
+  text-decoration: none; 
+}
+
+
 
 
 :host 
@@ -41,4 +47,4 @@ body
 {
     background-color: #E0C3FC;
     color: black;
-  }
+}

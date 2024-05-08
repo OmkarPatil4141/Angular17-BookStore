@@ -1,6 +1,7 @@
 <app-header></app-header>
-  <h1 align = "center" style="margin-right: 60px;"><button class="explore-button" routerLink="">Back</button>List Of Books Present in Our Bookstore📕</h1>
-  <!-- <button class="explore-button" routerLink="/books">Back</button> -->
+
+  <h1 align = "center" style="margin-right: 60px;">List Of Books📕</h1>
+  <button class="explore-button" routerLink="" style="margin-left: 10vw;">Back</button>
   <div class="container" *ngIf="!errMsg">
   <table class="table table-dark" border="2">
     <thead>
@@ -13,8 +14,8 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let book of Books; let i = index">
-            <th scope="row">{{ i + 1 }}</th>
+        <tr *ngFor="let book of Books">
+            <th scope="row">{{ book.id }}</th>
             <td>
                 <a [routerLink] = "['/books',book.id]" href="">{{ book.title }}</a>
             </td>
