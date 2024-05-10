@@ -8,21 +8,21 @@ This project is a  frontend application using a modern framework  Angular. The a
 
 - You can access the deployed version of this project here - [Deploy Link](https://main--angular-bookstore.netlify.app/)
 
-- Search in your browser - (https://main--angular-bookstore.netlify.app/)
+- Search in your browser - https://main--angular-bookstore.netlify.app/
 
 ## Screenshots
 
 ### 1. Homepage
-![App Screenshot](https://ibb.co/h86TphN)
+![App Screenshot](https://drive.google.com/file/d/1qMLOcRTFGuH5EW-jP7JF-UIKw335Qqzb/view?usp=sharing)
 
 ### 2. Books list page
-![App Screenshot](https://ibb.co/Y0Zt3YN)
+![App Screenshot](https://drive.google.com/file/d/1ii3khpqh_RyJKEopD8SoUTJfyqwhlfmw/view?usp=sharing)
 
 ### 3. Book Details page
-![App Screenshot](https://ibb.co/dfwyG1X)
+![App Screenshot](https://drive.google.com/file/d/14BICANVm6KBwvETe7m-8q9iXOnnZrw5x/view?usp=sharing)
 
 ### 4. 404: Page not found page
-![App Screenshot](https://ibb.co/yXVHbCs)
+![App Screenshot](https://drive.google.com/file/d/1pArGUTsGy6jwJDWZK34VyetJQXUX0KCe/view?usp=sharing)
 
 
 ## Prerequisites
@@ -41,7 +41,7 @@ This project is a  frontend application using a modern framework  Angular. The a
 2. Navigate to the project directory:
 
     ```bash
-    cd BookStore
+    cd Book-Store
     ```
 
 3. Install dependencies:
