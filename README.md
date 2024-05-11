@@ -13,16 +13,15 @@ This project is a  frontend application using a modern framework  Angular. The a
 ## Screenshots
 
 ### 1. Homepage
-![App Screenshot](https://drive.google.com/file/d/1qMLOcRTFGuH5EW-jP7JF-UIKw335Qqzb/view?usp=sharing)
-
+![App Screenshot](https://i.ibb.co/YjCVvYS/Screenshot-2024-05-08-234012.png)
 ### 2. Books list page
-![App Screenshot](https://drive.google.com/file/d/1ii3khpqh_RyJKEopD8SoUTJfyqwhlfmw/view?usp=sharing)
+![App Screenshot](https://i.ibb.co/Z2mhVtf/Screenshot-2024-05-08-234328.png)
 
 ### 3. Book Details page
-![App Screenshot](https://drive.google.com/file/d/14BICANVm6KBwvETe7m-8q9iXOnnZrw5x/view?usp=sharing)
+![App Screenshot](https://i.ibb.co/yNcJWGK/Screenshot-2024-05-08-234513.png)
 
 ### 4. 404: Page not found page
-![App Screenshot](https://drive.google.com/file/d/1pArGUTsGy6jwJDWZK34VyetJQXUX0KCe/view?usp=sharing)
+![App Screenshot](https://i.ibb.co/jTHn1Y4/Screenshot-2024-05-08-235251.png)
 
 
 ## Prerequisites
